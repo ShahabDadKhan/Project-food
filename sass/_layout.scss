@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // box-sizing: border-box;
+  // font-size: large;
+  // height: 156px;
+  // width: 1440px;
+}
+
+.logo {
+  width: 246px;
+  height: 101.76px;
+  padding: 0px 20px;
+  margin: 26.12px 0px 28.12px 70px;
+}
+
+.nav__links {
+  font-family: Montserrat;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // list-style: none;
+  width: 580px;
+  height: 48px;
+  margin: 53px 40px 55px 0px;
+
+  &-1 {
+    color: var(--color-primary-light);
+  }
+}

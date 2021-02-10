@@ -1,0 +1,107 @@
+:root {
+  --color-primary: #eb2f64;
+  --color-primary-light: rgba(250, 74, 12, 1);
+  --color-primary-dark: yellow;
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+  --line: 1px solid var(--color-grey-light-2); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-grey-dark-2);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.logo {
+  width: 246px;
+  height: 101.76px;
+  padding: 0px 20px;
+  margin: 26.12px 0px 28.12px 70px; }
+
+.nav__links {
+  font-family: Montserrat;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 580px;
+  height: 48px;
+  margin: 53px 40px 55px 0px; }
+  .nav__links-1 {
+    color: var(--color-primary-light); }
+
+.content__text-1 {
+  font-size: xx-large;
+  font-weight: bold;
+  color: var(--color-grey-light-1);
+  width: 60%; }
+
+.section-1 {
+  background-image: url(/img/header-1.png);
+  background-size: cover;
+  width: 1440px;
+  height: 619px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.btn {
+  color: var(--color-grey-light-1);
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  border: none;
+  cursor: pointer; }
+
+.heading-primary {
+  margin-bottom: 2rem;
+  color: var(--color-grey-light-1);
+  text-align: center;
+  margin-bottom: 20rem;
+  font-family: Poppins;
+  font-weight: bolder;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .heading-primary--main {
+    display: block;
+    font-weight: bolder; }
+  .heading-primary--sub {
+    display: block;
+    font-weight: bolder;
+    padding: 0rem 2.5rem; }
+  .heading-primary__span {
+    margin-top: 2rem;
+    font-weight: 700px;
+    font-family: "Montserrat"; }

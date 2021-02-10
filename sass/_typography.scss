@@ -1,0 +1,32 @@
+.heading-primary {
+  margin-bottom: 2rem;
+  color: var(--color-grey-light-1);
+  text-align: center;
+  margin-bottom: 20rem;
+  font-family: Poppins;
+  font-weight: bolder;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // font-family: Poppins;
+
+  &--main {
+    display: block;
+    font-weight: bolder;
+  }
+
+  &--sub {
+    display: block;
+    font-weight: bolder;
+    padding: 0rem 2.5rem;
+  }
+
+  &__span {
+    margin-top: 2rem;
+    font-weight: 700px;
+    font-family: "Montserrat";
+  }
+}
